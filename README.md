@@ -57,4 +57,4 @@ MedCare is a modern, full-stack healthcare portal designed to streamline medical
 - `app.py`: Core Flask application logic and database interactions.
 
 ---
-*Developed with ❤️ for a modern healthcare experience.*
+
