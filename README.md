@@ -2,16 +2,6 @@
 
 MedCare is a modern, full-stack healthcare portal designed to streamline medical appointments between doctors and patients. Built with a focus on high-end aesthetics (Glassmorphism) and real-time user feedback.
 
-## 📝 Description
-**MedCare** is an advanced Doctor Appointment Management System designed to bridge the gap between healthcare providers and patients through a seamless digital experience. 
-
-The application addresses common pain points in medical scheduling by providing:
-*   **Dynamic Resource Allocation**: Real-time availability tracking that instantly releases slots upon cancellation.
-*   **Proactive Patient Engagement**: Integrated notification system to ensure patients never miss their scheduled consultations.
-*   **Operational Efficiency for Doctors**: A simplified dashboard that filters out cancelled appointments, allowing practitioners to focus on active patient care.
-*   **Modern Design Language**: Utilizing glassmorphism and ambient animations to reduce "medical anxiety" and provide a premium, user-friendly interface.
-
-
 ## ✨ Key Features
 
 ### 🩺 For Patients

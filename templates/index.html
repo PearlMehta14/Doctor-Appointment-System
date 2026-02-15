@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/master.css') }}">
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.png') }}">
 </head>
+
 <body>
     <nav class="nav-bar">
         <div class="logo">
-            <h2 style="margin:0; background: var(--primary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">MedCare</h2>
+            <h2
+                style="margin:0; background: var(--primary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                MedCare</h2>
         </div>
         <div class="nav-links">
             <a href="{{ url_for('main') }}">Home</a>
@@ -33,21 +37,24 @@
 
         <div class="stat-grid">
             <div class="glass-card feature-card text-center">
-                <img src="{{ url_for('static', filename='first.jpg') }}" alt="Doctor" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #00d2ff;">
+                <img src="{{ url_for('static', filename='first.jpg') }}" alt="Doctor"
+                    style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #00d2ff;">
                 <h3>For Doctors</h3>
                 <p>Manage patients, view schedules, and streamline your practice with our dashboard.</p>
                 <a href="{{ url_for('logindr') }}" class="btn-premium secondary mt-4">Login as Doctor</a>
             </div>
-            
+
             <div class="glass-card feature-card text-center">
-                <img src="{{ url_for('static', filename='images.jpeg') }}" alt="Calendar" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #764ba2;">
+                <img src="{{ url_for('static', filename='images.jpeg') }}" alt="Calendar"
+                    style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #764ba2;">
                 <h3>Available Slots</h3>
                 <p>View real-time availability and choose the time that works best for you.</p>
                 <a href="{{ url_for('ts') }}" class="btn-premium mt-4">View Timeslots</a>
             </div>
 
             <div class="glass-card feature-card text-center">
-                <img src="{{ url_for('static', filename='download.jpeg') }}" alt="Patient" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #00d2ff;">
+                <img src="{{ url_for('static', filename='download.jpeg') }}" alt="Patient"
+                    style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #00d2ff;">
                 <h3>For Patients</h3>
                 <p>Quick registration, easy booking, and automated email confirmations.</p>
                 <a href="{{ url_for('login') }}" class="btn-premium mt-4">Login as Patient</a>
@@ -55,8 +62,9 @@
         </div>
 
         <footer class="text-center mt-8" style="padding-top: 4rem; color: var(--text-muted);">
-            <p>&copy; 2026 MedCare. All rights reserved. Premium Medical Portal.</p>
+            <p>2024 MedCare. All rights reserved. Premium Medical Portal.</p>
         </footer>
     </main>
 </body>
+
 </html>
